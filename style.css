@@ -1,0 +1,31 @@
+button {
+    text-align: center;
+}
+h1 {
+    color: purple;
+    text-align:center; 
+}
+
+
+.content{
+  margin: .4vw 0;
+  background: rgb(230, 173, 228);
+  padding: .4vw;
+}
+.tic-panel{
+  border: solid 2px black;
+  margin: .4vw 0;
+  background: #66A5AD;
+  padding: .4vw;
+}
+
+.tic-box{
+  border: solid black 1px;
+  font-size: 5vw;
+  background: #c590ee;
+  text-align: center;
+  color: lavender;
+}
+.tic-box:hover{
+  background: #63fff2;
+}
