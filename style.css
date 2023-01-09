@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 #gameContainer{
-  font-family: "cursive";
+  font-family: cursive;
   text-align: center;
 }
 
@@ -17,5 +17,5 @@
   grid-template-columns: repeat(3, auto);
   width: 225px;
   margin: auto;
-  background-color: pink;
+  background-color: lightblue;
 }
