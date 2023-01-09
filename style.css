@@ -1,31 +1,21 @@
-button {
-    text-align: center;
+.cell{
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
 }
-h1 {
-    color: purple;
-    text-align:center; 
-}
-
-
-.content{
-  margin: .4vw 0;
-  background: rgb(230, 173, 228);
-  padding: .4vw;
-}
-.tic-panel{
-  border: solid 2px black;
-  margin: .4vw 0;
-  background: #66A5AD;
-  padding: .4vw;
-}
-
-.tic-box{
-  border: solid black 1px;
-  font-size: 5vw;
-  background: #c590ee;
+#gameContainer{
+  font-family: "cursive";
   text-align: center;
-  color: lavender;
 }
-.tic-box:hover{
-  background: #63fff2;
+
+#cellContainer{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+  background-color: pink;
 }
